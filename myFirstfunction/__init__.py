@@ -1,0 +1,27 @@
+import logging
+import azure.functions as func
+from . import otp1
+
+
+def main(req: func.HttpRequest) -> func.HttpResponse:
+    logging.info('Python HTTP trigger function processed a request.')
+
+    name = req.params.get('name')
+    otp_recieve=req.params.get('otp_send')
+   
+    if not name:
+        try:
+            req_body = req.get_json()
+        except ValueError:
+            pass
+        else:
+            name = req_body.get('name')
+
+    if name:
+        otp1.sendotp(otp_recieve)
+        return func.HttpResponse(f"Hello, {name}. This HTTP triggered function executed successfully.The OTP sent successfully....{otp_recieve}")
+    else:
+        return func.HttpResponse(
+             "This HTTP triggered function executed successfully. Pass a name in the query string or in the request body for a personalized response.",
+             status_code=200
+        )
