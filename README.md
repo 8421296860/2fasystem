@@ -37,7 +37,7 @@ and it will inform to user about unauthorized login by alert messege.
 Demo http trigger passed through url bar for better understanding how azure function app working and responding .
 ![Screenshot (89)](https://user-images.githubusercontent.com/78414877/145261466-d7d589c2-3e04-4ff9-a69a-32aa0e1bd14c.png)
 
-thank You 
+Thank You 
 
 
 
