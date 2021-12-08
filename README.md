@@ -1,11 +1,11 @@
 # FUTURE READY TALENT VIRTUAL INTERSHIP PROJECT
 PROJECT NAME - TWO FACTOR AUTHENTICATION SYSTEM
-#Resources used:
-               1)Azure functions(python)
-               2)Azure Resource manager
-               3)Visual studio code 
+# Resources used:
+               * Azure functions(python)
+               * Azure Resource manager
+               * Visual studio code 
                
-               other resources:- linux os which runs azure function app
+               * other resources:- linux os which runs azure function app
                
              
                
