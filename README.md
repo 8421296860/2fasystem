@@ -1,6 +1,6 @@
 # FUTURE READY TALENT VIRTUAL INTERSHIP PROJECT
-PROJECT NAME - TWO FACTOR AUTHENTICATION SYSTEM
-You can check working azure function app by this http trigger - https://2fasystem.azurewebsites.net/api/myfirstfunction?name=Demouser&otp_send=Gahpd7
+# PROJECT NAME - TWO FACTOR AUTHENTICATION SYSTEM
+* You can check working azure function app by this http trigger - https://2fasystem.azurewebsites.net/api/myfirstfunction?name=Demouser&otp_send=Gahpd7
 # Resources used:
                * Azure functions(python)
                * Azure Resource manager
