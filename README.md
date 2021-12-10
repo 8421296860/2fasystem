@@ -3,8 +3,9 @@
 * You can check working azure function app by this http trigger - https://2fasystem.azurewebsites.net/api/myfirstfunction?name=Demouser&otp_send=Gahpd7
 # Resources used:
                * Azure functions(python)
-               * Azure Resource manager
-               * Visual studio code 
+               * Azure Resources
+               * Visual studio code
+               * Azure DevOps
                
                * other resources:- linux os which runs azure function app
                
