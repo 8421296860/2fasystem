@@ -12,7 +12,7 @@
                
  
 
-# Please watch this project demo and explanation vidio created by me for further idea and refference of my project :)
+# Please watch this project demo and explanation video created by me for further idea and refference of my project :)
 https://user-images.githubusercontent.com/78414877/145254141-86ee0f71-acae-414b-801b-a9f34071d23d.mp4
 
 * Project problem area - to secure system ,financial apps from unauthorized logins and access using two factor authentication concept with help of azure services and python twilio api's
